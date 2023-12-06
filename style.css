@@ -104,3 +104,12 @@ nav h4 {
     font-weight: 100;
     line-height: 20vw; */
 }
+
+
+ /* page2 css starts from here */
+
+ #page2{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+ }

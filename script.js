@@ -9,3 +9,14 @@ page1Content.addEventListener("mousemove" , function(dets){
     y: dets.y
    })
 })
+
+page1Content.addEventListener("mouseenter" , function(){
+    gsap.to(cursor , {
+        scale: 1
+    })
+})
+page1Content.addEventListener("mouseleave" , function(){
+    gsap.to(cursor  , {
+        scale: 0
+    })
+})
