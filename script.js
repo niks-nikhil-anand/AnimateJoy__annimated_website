@@ -1,4 +1,7 @@
-gsap.registerPlugin(ScrollTrigger);
+
+
+function scroll_loco(){
+    gsap.registerPlugin(ScrollTrigger);
 
 // Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
 
@@ -30,6 +33,8 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 ScrollTrigger.refresh();
 
 
+}
+scroll_loco()
 function move_cursor(){
     let page1Content = document.querySelector(".page1_content")
 let cursor = document.querySelector("#cursor")
