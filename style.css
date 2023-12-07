@@ -235,7 +235,7 @@ nav h4 {
     height: 100vh;
     /* position: relative; */
     width: 100%;
-    background-color: white;
+    background-color: #faf8f3;
 }
 #page4 video {
     height: 100%;
@@ -277,4 +277,6 @@ nav h4 {
     position: absolute;
     height: 65%;
 }
+
+/* page 05 css starts from here  */
 
