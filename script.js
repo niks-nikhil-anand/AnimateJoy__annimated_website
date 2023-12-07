@@ -62,3 +62,20 @@ page1Content.addEventListener("mouseleave" , function(){
 })
 }
 move_cursor()
+
+function page2_annimation(){
+    gsap.from(".text_bar2 p ", {
+        y :120 ,
+        stagger:0.2 ,
+        duration:1,
+        ScrollTrigger:{
+            trigger : "#page2" ,
+            scroller : "#main",
+            start :"top 47%",
+            end:"top 46%",
+            scrub:2
+        }
+    })
+}
+
+page2_annimation()

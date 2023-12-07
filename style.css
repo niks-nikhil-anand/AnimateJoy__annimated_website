@@ -39,11 +39,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translate(-50% ,-50%);
+    transform: translate(-50%, -50%);
 
 }
- 
-#cursor h5{
+
+#cursor h5 {
     font-size: 1.2vw;
     font-weight: 500;
 
@@ -106,44 +106,129 @@ nav h4 {
 }
 
 
- /* page2 css starts from here */
+/* page2 css starts from here */
 
- #page2{
+#page2 {
     width: 100%;
     height: 100vh;
-    background-color: antiquewhite;
+    background-color: #faf8f3;
     display: flex;
     flex-direction: column;
- }
- .text_bar1{
+}
+
+.text_bar1 {
     display: flex;
     justify-content: space-between;
     padding: 4vw 2vw;
     padding: 5vw 2vw 0.5vw 2vw;
- }
+}
 
- .text_bar1 h3{
+.text_bar1 h3 {
     font-size: 22px;
     font-family: nb;
     font-weight: 100;
- }
- .text_bar1 h3:second-child{
-    padding-bottom: 1vw;
- }
+}
 
- .hr_bar {
+.text_bar1 h3:second-child {
+    padding-bottom: 1vw;
+}
+
+.hr_bar {
     padding: 0 2vw;
- }
- .text_bar2{
+}
+
+.text_bar2 {
     padding-left: 2vw;
- }
- .text_bar2 p{
+}
+
+.text_bar2 p {
     font-size: 4.2vw;
     font-family: nb;
 
- }
- .text_bar2 span{
+}
+
+.text_bar2 span {
     /* color: red; */
     padding-left: 7vw;
- }
+}
+
+
+/* Page 03 css starts from here  */
+#page3 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 3vw;
+    background-color: #faf8f3;
+}
+
+.page3_top {
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 30vh;
+    /* margin-bottom: 36vh; */
+}
+
+.page3_top h4 {
+    margin-bottom: 1vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.page3_top h4 span {
+    /* margin-bottom: 0.7vw; */
+    font-size: 0.6vw;
+    font-weight: 300;
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+.page3_top h2 {
+    /* margin-bottom: 1vw; */
+    font-size: 4vw;
+    font-weight: 500;
+}
+
+.page3_bottom {
+    /* background-color: red; */
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 9vw;
+}
+
+.page3_bottom .box {
+    height: 100%;
+    width: 32.5%;
+    position: relative;
+    cursor: pointer;
+    /* background-color: greenyellow; */
+}
+
+.page3_bottom .box video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.page3_bottom .box img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all linear 0.7s;
+}
+.page3_bottom .box:hover img {
+   opacity: 0;
+  
+}
+
+/* page-04 css starts from here  */
+
 
