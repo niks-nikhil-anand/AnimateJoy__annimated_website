@@ -231,4 +231,50 @@ nav h4 {
 
 /* page-04 css starts from here  */
 
+#page4{
+    height: 100vh;
+    /* position: relative; */
+    width: 100%;
+    background-color: white;
+}
+#page4 video {
+    height: 100%;
+}
+#page4_content{
+    width: 100%;
+    height: 100%;  
+    position: relative;
+}
+#page4_video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#take_it{
+    height: 7.5vw;
+    width: 7.5vw;
+    background-color: black;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+
+
+#take_it h5 {
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: white;
+
+}
+
+#page4_video svg{
+    position: absolute;
+    height: 65%;
+}
 
