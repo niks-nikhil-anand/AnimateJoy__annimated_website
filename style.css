@@ -347,7 +347,8 @@ nav h4 {
 #swiper {
     height: 60vh;
     width: 100%;
-    background-color: red;
+    position: relative;
+    /* background-color: red; */
 }
 .swiper {
     width: 100%;
@@ -355,6 +356,7 @@ nav h4 {
   }
 
   .swiper-slide {
+    width: 400px !important;
     text-align: center;
     font-size: 18px;
     background: #fff;
