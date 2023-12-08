@@ -344,7 +344,7 @@ nav h4 {
     margin-left: 2%;
 
 }
-#swiper {
+#swiper-elem {
     height: 60vh;
     width: 100%;
     position: relative;
@@ -356,10 +356,9 @@ nav h4 {
   }
 
   .swiper-slide {
-    width: 400px !important;
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #ab3232;
     display: flex;
     justify-content: center;
     align-items: center;
