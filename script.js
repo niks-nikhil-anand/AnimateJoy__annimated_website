@@ -158,16 +158,37 @@ tl.to("#loader h3", {
 tl.to("#loader", {
     opacity: 0
 })
+tl.to("#loader", {
+    display: "none"
+})
 
 tl.from(".page1_content h1 span", {
+    y: 100,
+    opacity: 0,
+    stagger: 0.1 ,
+    duration : 0.1
+
+})
+tl.from(".text_bar1 h3", {
+    y: -100,
+    opacity: 0,
+    stagger: 0.1 ,
+    duration : 0.1
+
+})
+tl.from(".text_bar2 p", {
     y: 100,
     opacity: 0,
     stagger: 0.1 ,
     duration : 0.3
 
 })
-tl.to("#loader", {
-    display: "none"
+
+tl.from(".page7_footer h1 span", {
+    y: 100,
+    opacity: 0,
+    stagger: 0.1 ,
+    duration : 0.9
 })
 
 
