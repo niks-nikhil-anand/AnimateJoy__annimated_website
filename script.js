@@ -117,12 +117,22 @@ function autoplaySlider() {
         spaceBetween: 30,
         loop: true,
         autoplay: {
-            delay: 2500,
+            delay: 1500, // Set the delay to control the duration between slides (in milliseconds)
             disableOnInteraction: true,
-
+        },
+        speed: 11000, // Set the speed for the transition between slides (in milliseconds)
+        effect: 'coverflow', // Use the 'coverflow' effect for a smoother transition
+        coverflowEffect: {
+            rotate: 50, // Set the rotate value for the coverflow effect
+            stretch: 0, // Set the stretch value for the coverflow effect
+            depth: 100, // Set the depth value for the coverflow effect
+            modifier: 1, // Set the modifier value for the coverflow effect
+            slideShadows: false, // Disable slide shadows for better visibility
         },
     });
 }
+
+
 
 autoplaySlider();
 
@@ -148,11 +158,18 @@ tl.to("#loader h3", {
 tl.to("#loader", {
     opacity: 0
 })
+
+tl.from(".page1_content h1 span", {
+    y: 100,
+    opacity: 0,
+    stagger: 0.1 ,
+    duration : 0.3
+
+})
 tl.to("#loader", {
     display: "none"
 })
 
-tl.from(".page1_content h1 span", {
-    y : 100 ,
-    opacity : 0
-})
+
+
+
