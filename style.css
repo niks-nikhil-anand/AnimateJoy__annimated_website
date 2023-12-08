@@ -330,11 +330,16 @@ nav h4 {
 /* page06 css starts form here  */
 
 #page6 {
-    min-height: 100vh;
+    min-height: 120vh;
     width: 100%;
     background-color: #faf8f3;
     padding: 4vw 0;
     position: relative;
+}
+#page6_top{
+    /* background-color: red; */
+    padding-bottom: 200px;
+    /* margin-bottom: 100px; */
 }
 
 #page6 h1 {
@@ -350,6 +355,7 @@ nav h4 {
 #swiper-elem {
     height: 60vh;
     width: 100%;
+    /* margin-bottom: 800px; */
     position: relative;
     margin-top: -2%;
     /* background-color: red; */
